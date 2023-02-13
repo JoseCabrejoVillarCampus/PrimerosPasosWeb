@@ -4,12 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etiquetas de Raiz</title>
+    <title>Ejemplo Etiquetas</title>
 </head>
 <body>
-    <!DOCTYPE html> 
-    <!--Indica al navegador que el documento está basado en el estándar HTML5-->
-    <html> </html> 
-    <!--Representa la raíz de un documento HTML. Todos los demás elementos de la estructura HTML deben ser recogidos dentro de estas etiquetas.-->
+    <main>Ejemplos De Etiquetas</main><!--<main> </main> Se usa para definir el contenido principal del documento. Solamente puede existir uno por documento.-->
+    <nav class="menu"><!--<nav> </nav> Usadas para definir el contenido que será la sección de navegación de la web.-->
+        <ul><!--<ul> </ul> Etiquetas para crear una lista des-ordenada-->
+            <li><a href="#">Inicio</a></li><!--<li> </li> Etiquetas que recogen el contenido de un elemento de una lista, sea ordenada o no.-->
+            <li><a href="#">Sobre nosotros</a></li><!--<a> </a> Etiqueta utilizada para crear hiperenlaces en el documento HTML-->
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <section><!--<section> </section> Define una sección del documento-->
+        <article><!--<article> </article> Define contenido independiente de la web.-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel quas delectus <br><!--<br> Etiqueta utilizada para crear un salto de línea-->
+            minus veniam facere architecto nulla! Praesentium <a href="#">laboriosam</a> <!--<a> </a> Etiqueta utilizada para crear hiperenlaces en el documento HTML-->labore eius cum rerum odit <br>
+            inventore, <strong >doloribus laudantium est animi.</strong><!--<strong> </strong> Etiqueta para definir una palabra o conjunto de ellas como importantes.-->
+        </article>
+    </section>
+    <section>
+        <div><!--<div> </div> Etiqueta común utilizada para crear un contenedor genérico.-->
+            <table><!--<table> </table> Etiquetas de apertura y cierre de una tabla. El resto de etiquetas de la tabla han de ir siempre recogidas entre estas dos etiquetas.-->
+                <caption>Tabla Ejemplo</caption><!--<caption> </caption> Usada para indicar el título de la tabla.-->
+                <colgroup><!--Especifica un grupo de una o más columnas para aplicar formato.-->
+                    <col style="width: 20%"/>
+                    <col style="width: 40%"/>
+                    <col style="width: 40%"/>
+                </colgroup>
+                <thead><!--Define la cabecera de la tabla.-->
+                    <tr><!--Define una fila en la tabla.-->
+                        <th rowspan="2">Tabla Avanzada</th><!--Definición de cabecera de tabla.-->
+                        <th colspan="2">Cabecera Múltiples Columnas</th>
+                    </tr>
+                    <tr>
+                        <th>Primera Col. Cab.</th>
+                        <th>Segunda Col. Cab.</th>
+                    </tr>
+                </thead>
+                <tfoot><!--Define el pie de la tabla-->
+                    <tr>
+                        <td colspan="3">Pie de tabla.</td>
+                    </tr>
+                </tfoot>
+                <tbody><!--Define el cuerpo de la tabla-->
+                    <tr>
+                        <th>Fila 1</th>
+                        <td>Fila 1 Columna 1</td><!--Define una celda en la tabla.-->
+                        <td>Fila 1 Columna 2</td>
+                    </tr>
+                    <tr>
+                        <th>Fila 2</th>
+                        <td>Fila 2 Columna 1</td>
+                        <td>Fila 2 Columna 2</td>
+                    </tr>
+                </tbody>
+            </table>           
+        </div>
+    </section>
+    <section>
+        <div>
+            <small>mini tabla</small><br><!--Utilizada para dejar un comentario aparte, del tipo una nota de derechos de autoría, u otros textos que no son esenciales para la comprensión del documento.-->
+            <sub>mini mini tabla</sub><br><!--Etiquetas utilizadas para representar un subíndice o superíndice.-->
+            <sup>mini mini mini tabla</sup><br><!--Etiquetas utilizadas para representar un subíndice o superíndice.-->
+        </div>
+        <div>
+            <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen.jpg">
+        </div>
+    </section>
+
+    
+    
 </body>
 </html>
